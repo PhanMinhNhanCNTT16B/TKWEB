@@ -1,0 +1,61 @@
+body{
+	padding:1px;
+	margin:1px;
+}
+
+/* Global */
+section .container{
+	margin: 30px;
+}
+
+ul{
+
+}	
+
+/* Header **/
+header{
+	background: gray;
+	border-bottom: 1px solid red;
+	height: 100px;
+}
+
+header a{
+	text-transform:uppercase;
+}
+
+header li{
+	display: inline-block;
+	margin: 5px;
+}
+
+header #branding{
+	display: inline-block;
+	margin-left: 45px;
+	color:white;
+}
+
+header #branding h1{
+	float:right;
+	margin-top: 25px;
+}
+
+header nav{
+	float:right;
+}
+
+header .highlight, header .current a{
+	color:red;
+}
+
+header a:hover{
+	color:green;
+
+}
+
+footer{
+	background-color:gray;
+	height: 70px;
+	text-align: center;
+	padding-top:15px;
+}
+

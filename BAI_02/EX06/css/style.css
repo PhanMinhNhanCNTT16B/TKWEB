@@ -1,0 +1,81 @@
+body{
+	padding:1px;
+	margin:1px;
+}
+
+/* Global */
+section .container{
+	margin: 30px;
+}
+
+ul{
+
+}	
+
+/* Header **/
+header{
+	background: gray;
+	border-bottom: 1px solid red;
+	height: 100px;
+}
+
+header a{
+	text-transform:uppercase;
+}
+
+header li{
+	display: inline-block;
+	margin: 5px;
+}
+
+header #branding{
+	display: inline-block;
+	margin-left: 45px;
+	color:white;
+}
+
+header #branding h1{
+	float:right;
+	margin-top: 25px;
+}
+
+header nav{
+	float:right;
+}
+
+header .highlight, header .current a{
+	color:red;
+}
+
+header a:hover{
+	color:green;
+
+}
+
+/* Showcase */
+#showcase{
+	background-image: url(../img/showcase.jpg);
+	height: 250px;
+	background-position: center;
+	padding-top:10px;
+}
+
+#showcase h1{
+	font-size:30px;
+	text-align:center;
+	color:gray;
+}
+
+#showcase p{
+	font-size:25px;
+	text-align:cent;er;
+}
+
+
+footer{
+	background-color:gray;
+	height: 70px;
+	text-align: center;
+	padding-top:15px;
+}
+

@@ -1,0 +1,130 @@
+body{
+	padding:1px;
+	margin:1px;
+}
+
+/* Global */
+section .container{
+	margin: 30px;
+}
+
+ul{
+
+}
+
+.button_1{
+	height:20px;
+	background-color: red;
+}
+
+.dark{
+	background-color: gray;
+	padding: 5px;
+}	
+
+/* Header **/
+header{
+	background: gray;
+	border-bottom: 1px solid red;
+	height: 100px;
+}
+
+header a{
+	text-transform:uppercase;
+}
+
+header li{
+	display: inline-block;
+	margin: 5px;
+}
+
+header #branding{
+	display: inline-block;
+	margin-left: 45px;
+	color:white;
+}
+
+header #branding h1{
+	float:right;
+	margin-top: 25px;
+}
+
+header nav{
+	float:right;
+}
+
+header .highlight, header .current a{
+	color:red;
+}
+
+header a:hover{
+	color:green;
+
+}
+
+/* Showcase */
+#showcase{
+	background-image: url(../img/showcase.jpg);
+	height: 250px;
+	background-position: center;
+	padding-top:10px;
+}
+
+#showcase h1{
+	font-size:30px;
+	text-align:center;
+	color:gray;
+}
+
+#showcase p{
+	font-size:25px;
+	text-align:cent;er;
+}
+
+
+/* Newsletter */
+#newsletter{
+	background-color:gray;
+	height:70px;
+	padding-top:5px;	
+}
+
+#newsletter h1{
+	margin-top:-25px;
+}
+
+#newsletter form {
+	float:right;
+	margin-top:-40px;
+}
+
+#newsletter input[type="email"]{
+	border: 1px solid red;
+}
+
+
+
+
+/* Boxes */
+#boxes{
+	text-align: center;
+}
+
+#boxes .box{
+	display: inline-block;
+	width:350px;
+	margin:40px;
+}
+
+#boxes .box img{
+	width:150px;
+	height:150px;
+}
+
+footer{
+	background-color:gray;
+	height: 70px;
+	text-align: center;
+	padding-top:15px;
+}
+
